@@ -21,8 +21,7 @@ export const App = () => {
           id={user.id}
           name={user.name}
           username={user.username}
-          street={user.address.street}
-          city={user.address.city}
+          address={user.address}
         ></ListItems>
       ))}
     </div>
